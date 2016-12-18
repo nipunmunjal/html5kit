@@ -26,16 +26,46 @@ function stickyHeader(){
 	    if ($(this).scrollTop() > 50) {
 	      $('header').addClass('sticky');
 	    } else {
-	      $('header').removeClass('sticky');
+	      $('header').removeClass('sticky');  
 	    }
   	});
 }
 
+/*featured carousel
+===============================*/
+function featuredCarousel(){
+	$('.featured-carousel').owlCarousel({
+		animateOut: 'fadeOut',
+    	animateIn: 'fadeIn',
+		loop: true, 
+		margin:30,  
+		items:3, 
+		autoplay:false,
+		smartSpeed:1000,
+		dots: false,
+		nav:true,
+		responsiveClass:true,
+	    responsive:{
+	        0:{
+	            items:2,
+	            margin:10
+	        },
+	        600:{
+	            items:2,
+	            nav:false,
+	            margin:10
+	        },
+	        1000:{ 
+	            items:3
+	        }
+	    }
+	});
+}
 
 
 $(document).ready(function () {		
-	//bannerCarousel();
 	//heightAdjust();
+	//featuredCarousel();
 });
 
 
