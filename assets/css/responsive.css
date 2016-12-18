@@ -1,0 +1,43 @@
+@charset "utf-8";
+/*Large desktop devices
+============================*/
+@media (min-width: 1400px){
+
+}
+
+@media (min-width: 767px){
+
+}
+
+/*====  Medium desktop devices  ======= */
+@media only screen and (max-width:1400px) {
+}
+
+
+/*====  Macbook Landscape  ======= */
+@media only screen and (max-width:1200px) {
+
+}
+
+/*====  IPad Landscape  ======= */
+@media only screen and (max-width: 1024px) {
+
+}	
+
+/*==== Ipad Potrait ======= */
+@media only screen and (max-width:980px) {
+
+}
+
+/*====  Mobile Landscape ======= */
+@media only screen and (max-width:767px) {
+
+}
+
+/*====  Mobile Portrait ======= */
+@media only screen and (max-width:480px) {
+	
+}
+
+
+

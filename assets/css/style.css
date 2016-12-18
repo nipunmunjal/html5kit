@@ -1,0 +1,36 @@
+/*  Global
+==================================*/
+body {font-family: 'CenturyGothic', serif;font-size: 16px;line-height: normal;color: #565a5c;overflow-x: hidden;line-height: normal;}
+a { color: inherit; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; -moz-transition: all ease 0.5s;}
+a:hover, a:focus { text-decoration: none; outline: 0; color: inherit}
+
+/*Custom margin's & padding's
+==================================*/
+.mar-0 { margin-right: 0; margin-left: 0;}
+.pad-0 { padding-right: 0; padding-left: 0; }
+.pad-lf-0 { padding-left: 0;}
+.pad-rt-0 { padding-right: 0;}
+
+/*  Headings
+==================================*/
+h1, h2, h3, h4, h5, h6 { font-family: 'CenturyGothic'; font-weight: bold; margin: 0;}
+h1 {font-size: 46px;line-height: 50px;}
+h2 { font-size: 36px; line-height: 40px; }
+h3 {font-size:  26px;line-height: 30px; }
+h4 { font-size: 20px; line-height: 24px; }
+h5 { font-size: 16px; line-height: 22px; }
+h6 { font-size: 14px; line-height: 20px; }
+
+
+/*  Images Alignment
+==================================*/
+img.aligncenter { margin: 0 auto 20px; display: table;}
+img.alignnone { margin-bottom: 20px;}
+img.alignleft {  margin-right: 20px; float: left;}
+img.alignright {  margin-left: 20px; float: right;margin: 0 0 0 50px;}
+
+
+/*  listing default
+==================================*/
+ul{padding: 0;margin: 0;}
+ul li {list-style: none;}
